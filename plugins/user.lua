@@ -9,7 +9,8 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
-  { "ellisonleao/gruvbox.nvim", 
+  {
+    "ellisonleao/gruvbox.nvim",
     config = function()
       require("gruvbox").setup({
         undercurl = true,
@@ -27,8 +28,10 @@ return {
         invert_tabline = false,
         invert_intend_guides = false,
         inverse = false, -- invert background for search, diffs, statuslines and errors
-        contrast = "", -- can be "hard", "soft" or empty string
-        palette_overrides = {},
+        contrast = "",   -- can be "hard", "soft" or empty string
+        palette_overrides = {
+          -- light1 = "#3c3836",
+        },
         overrides = {},
         dim_inactive = false,
         transparent_mode = false,
