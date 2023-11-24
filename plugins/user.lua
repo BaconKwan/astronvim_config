@@ -37,11 +37,7 @@ return {
         transparent_mode = false,
       })
     end,
-  },
-  {
-    'Exafunction/codeium.vim',
-    event = "BufEnter",
-  },
+  }
   -- {
   --   "zbirenbaum/copilot.lua",
   --   cmd = "Copilot",
